@@ -98,7 +98,7 @@ public class VirtualPetsAmokApp {
                 System.out.println("You have adopted a pet, Congratulations to you and " + petToAdopt);
                 myPetShelter.tickAllPets();
             } else if (userInput.equals("0")) {
-                System.out.println("Thanks for playing! Goodbye.");
+                System.out.println("Thanks for playing, Have a good day! Goodbye.");
                 quit = true;
             } else {
                 System.out.println("Sorry, that response was not recognized. Try again.");
