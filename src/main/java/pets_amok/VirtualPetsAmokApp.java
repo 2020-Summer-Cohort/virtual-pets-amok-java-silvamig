@@ -8,7 +8,7 @@ public class VirtualPetsAmokApp {
 
     public static void main(String[] args) {
 
-        myPetShelter.addPet(new OrganicDog("Sirius", "a organic dog", 50, 50, 25, 25, 25, 0));
+        myPetShelter.addPet(new OrganicDog("Sirius", "an organic dog", 50, 50, 25, 25, 25, 0));
         myPetShelter.addPet(new RoboticDog("Robert", "a robotic dog", 50, 50, 25, 25));
         myPetShelter.addPet(new OrganicCat("Cyprus", "an organic cat", 50, 50, 25, 25, 0));
         myPetShelter.addPet(new RoboticCat("Hilda", "a robotic cat", 50, 50, 25, 25));
@@ -91,7 +91,7 @@ public class VirtualPetsAmokApp {
                 }
 
             } else if (userInput.equals("11")) {
-                System.out.println("You want to adotp a pet. Enter the name of the pet you wish to adopt.");
+                System.out.println("You want to adopt a pet. Enter the name of the pet you wish to adopt.");
                 myPetShelter.listPetNamesAndDescriptions();
                 String petToAdopt = input.nextLine();
                 myPetShelter.adoptPet(petToAdopt);
